@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{config}
+\usepackage{import}
+%\newwatermark[allpages,color=gray!25,angle=60,scale=7,xpos=-40,ypos=20]{FA564}
+
+\begin{document}
+	\import{sections/}{titlepage2}
+	\newpage
+    \import{sections/}{content}  
+    
+   	\noindent\textbf{Questão 1}
+   	\import{sections/questions/}{question-1}\\
+   	\noindent\textbf{Questão 2}
+   	\import{sections/questions/}{question-2}\\
+   	\noindent\textbf{Questão 3}
+   	\import{sections/questions/}{question-3}\\
+   	\noindent\textbf{Questão 4}
+   	\import{sections/questions/}{question-4}\\
+	\noindent\textbf{Questão 5}
+   	\import{sections/questions/}{question-5}
+  
+\end{document}
