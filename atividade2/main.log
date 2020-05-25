@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7420 64-bit)  (format=lualatex 2020.5.16)  21 MAY 2020 13:23
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7420 64-bit)  (format=lualatex 2020.5.16)  25 MAY 2020 15:42
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -939,13 +939,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (./sections/questions.tex (./sections/answers/q1.tex)
 (./sections/answers/q2.tex) (./sections/answers/q3.tex)
-(./sections/answers/q4.tex) (./sections/answers/q5.tex)
-(./sections/answers/q6.tex) (./sections/answers/q7.tex)
-(./sections/answers/q8.tex [1
+(./sections/answers/q4.tex) (./sections/answers/q5.tex [1
 
 {C:/Users/renan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) (./section
-s/answers/q9.tex) (./sections/answers/q10.tex))
-[2]
+s/answers/q6.tex)
+(./sections/answers/q7.tex) (./sections/answers/q8.tex)
+(./sections/answers/q9.tex) (./sections/answers/q10.tex)) [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 8.
  (./main.aux)
@@ -957,23 +956,23 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 8.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25451 strings out of 480895
+ 25444 strings out of 480895
  100000,794899 words of node,token memory allocated
  558 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 12 attribute, 57 glue_spec
 , 8 attribute_list, 2 write nodes
-   avail lists: 2:330,3:46,4:60,5:170,6:10,7:3920,8:23,9:91,10:28,11:394
- 42055 multiletter control sequences out of 65536+200000
- 63 fonts using 5740227 bytes
- 68i,13n,69p,1985b,869s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}<D:/MikTex/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/lm/lmbx12.pfb>
-<D:/MikTex/fonts/type1/public/lm/lmr12.pfb><D:/MikTex/fonts/type1/public/lm/lmri
-12.pfb>
-Output written on main.pdf (2 pages, 98338 bytes).
+   avail lists: 2:565,3:84,4:84,5:152,6:26,7:4271,8:23,9:127,10:28,11:389
+ 42057 multiletter control sequences out of 65536+200000
+ 64 fonts using 5802907 bytes
+ 68i,13n,69p,1985b,861s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MikTex/fonts/enc/dvips/lm/lm-ec.enc}{D:/MikTex/fonts/enc/dvips/lm/lm-ts1.enc
+}<D:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MikTex/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:
+/MikTex/fonts/type1/public/lm/lmbx12.pfb><D:/MikTex/fonts/type1/public/lm/lmr12.
+pfb><D:/MikTex/fonts/type1/public/lm/lmri12.pfb>
+Output written on main.pdf (2 pages, 102524 bytes).
 
-PDF statistics: 52 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 131072)
+PDF statistics: 54 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
