@@ -1,0 +1,65 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[top=2cm, right=3cm, bottom=2cm, left=3cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\newcommand{\tbf}[1]{\textbf{#1}}
+
+\begin{document}
+	\begin{itemize}
+		\item\tbf{Nome: Renan da Silva Guedes}
+		\item\tbf{RA: 223979}
+	\end{itemize}
+
+	\section{Questões}
+	\begin{enumerate}
+		\item\tbf{Qual motivo que os livros de hidrologia tratam o dimensionamento de reservatórios de água como regularização de vazões por reservatórios?}
+		
+		O dimensionamento de reservatórios está intimamente ligado à capacidade dos mesmos de armazenar água para épocas mais secas. A vazão dos reservatórios é vinculada às condições climáticas de um local, ou seja, em épocas mais úmidas as vazões deles tendem a aumentar, enquanto que em épocas mais secas a mesma reduz. Dessa forma, o dimensionamento dos reservatórios é tratado como regularização de vazões tendo em vista que o projeto feito de forma correta, contemplando todas as variáveis da região, não superdimensiona os reservatórios, aumentando os custos materiais e nem subdimensiona os mesmos, ocasionando maior necessidade de racionamento em períodos de estiagem.
+		
+		\item\tbf{Quais são as principais informações necessárias para o dimensionamento do volume útil de reservatórios?}
+		
+		Devem ser consideradas as perdas por evaporação, infiltração no solo ou vazamentos, caso eles forem significativos.
+		
+		\item\tbf{Descreva como o problema simplificado de dimensionamento de volume útil de reservatórios pode ser realizado.}
+		
+		Uma extrema simplificação baseia-se em supor que a única retirada de água que é feita do açude é proveniente de descargas operadas. Nesse caso, despreza-se as perdas por evaporação e infiltração.
+		
+		\item\tbf{Quais são as limitações dos resultados dos volumes do dimensionamento dos volumes dos reservatórios utilizando a abordagem simplificada?} 
+		
+		Entre as principais limitações apresentadas destacam-se:
+		
+		\begin{itemize}
+			\item Admitir a série histórica como sendo uma repetição cíclica (não supõe séries mais ou menos críticas). Isto pode levar ao sub ou superdimensionamento do volume útil;
+			\item Não associar riscos a um volume definido;
+			\item Não permitir variar a vazão regularizada em função do volume armazenado;
+			\item Não considerar perdas por evaporação do reservatório;
+			\item Admitir que o reservatório esteja cheio no início de sua operação.
+ 		\end{itemize}
+		
+		\item\tbf{Quais são as informações que devem ser acrescidas para o dimensionamento real do volume útil dos reservatórios?}
+		
+		Os parâmetros incorporados nessa nova análise levam em consideração o armazenamento no início do intervalo de tempo $t$, o deflúvio afluente durante o intervalo $t$, a descarga operada visando o suprimento da demanda, a evaporação do reservatório durante o intervalo de tempo $t$ e a chuva sobre o reservatório durante o mesmo intervalo de tempo.
+		
+		\item\tbf{Obtido o valor do volume útil do reservatório para atendimento da demanda esse valor só será efetivo se ocorrer qual condição no futuro após a construção da barragem?}
+		
+		Deve ser feito uso da série histórica devido à instabilidade das previsões futuras quanto ao volume requerido para o reservatório. Dessa forma, por meio do estudo da frequência e da adoção de uma distribuição teórica de probabilidades para amostras de eventos máximos, torna-se possível estabelecer o volume com base na duração em dias ao fixar uma probabilidade fixa de emergência.
+		
+		
+	\end{enumerate}
+
+	\section{Referências}
+	
+	\begin{itemize}
+		\item Material disponibilizado no \textit{Moodle}
+		
+		\item LOPES, João; SANTOS, Raquel. Capacidade de Reservatórios. Métodos de dimensionamento, [S. l.], p. 8-10, 11 jul. 2002. Disponível em: http://www.leb. esalq.usp.br/leb/disciplinas/Fernando /leb1440/Aula\%206/C\-apacidade\%20de\%20Reservatorios.pdf. Acesso em: 23 jun. 2020.
+	\end{itemize}
+\end{document}
