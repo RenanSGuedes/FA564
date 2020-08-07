@@ -112,39 +112,4 @@
 	\section{Tabela de custos}
 	
 	\import{sections}{data}
-	
-	\section{Orçamento de terraplenagem}
-	
-	\subsection{Equipamentos para terraplenagem}
-	
-	01 escavadeira hidráulica sobre esteiras (limpeza e preparo da área de implantação) $\rightarrow$ \SI{50}{\hour}
-	
-	\noindent 01 escavadeira hidráulica + 03 a 04 caminhões traçados com capacidade de $\SI{12}{m^{3}}$ (na área de empréstimo) $\rightarrow$ 360 horas \\(quantidade de caminhões considerando distância de transporte de até \SI{1}{\kilo\meter})\\
-	
-	\noindent 01 trator de lâmina sobre esteiras (CAT D6) - espalhamento do aterro $\rightarrow$ \SI{360}{\hour}
-	
-	\noindent 01 rolo compactador corrugado auto propelido (CA25 ou similar) para compactação $\rightarrow$ \SI{360}{\hour}
-	
-	\noindent 01 trator agrícola com grade para homogeneização do de solo $\rightarrow$ \SI{360}{\hour}
-	
-	\noindent 01 caminhão irrigadeira com bomba de capacidade \SI{8000}{\liter} (depende da umidade do solo da jazida) $\rightarrow$ \SI{200}{\hour} 
-	
-	\subsubsection{Custo estimado}
-	
-	\noindent 01 escavadeira hidráulica sobre esteiras: $\SI{410}{\hour}\times\textrm{R\$}300,00$
-	
-	\noindent 03 a 04 caminhões traçados ($\SI{12}{\meter^{3}}$): $\SI{1200}{\hour}\times\textrm{R\$}140,00$
-	
-	\noindent 01 trator de lâmina sobre esteiras (CAT D6): $\SI{360}{\hour}\times\textrm{R\$}250,00$
-	
-	\noindent 01 rolo compactador (CA25 ou similar):  $\SI{360}{\hour}\times\textrm{R\$}180,00$
-	
-	\noindent 01 trator agrícola com grade: $\SI{360}{\hour}\times\textrm{R\$}130,00$
-	
-	\noindent 01 caminhão irrigadeira:  $\SI{200}{\hour}\times\textrm{R\$}140,00$
-	
-	\noindent Valor total estimado dos equipamentos: 
-	
-	
-	
 \end{document}

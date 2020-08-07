@@ -1,41 +1,60 @@
 % Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
 % \usepackage{longtable}
 % Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
-\begin{longtable}[c]{|l|l|l|l|l|}
-	\hline
-	& \textbf{Nome} & \textbf{RA} & \textbf{Valor de L} & \textbf{Valor de H} \\ \hline
+\begin{longtable}[c]{l|l|c|l|l|}
+	\cline{2-5}
+	& \cellcolor[HTML]{CBCEFB}\textbf{Nome} & \multicolumn{1}{l|}{\cellcolor[HTML]{CBCEFB}\textbf{RA}} & \cellcolor[HTML]{CBCEFB}\textbf{Valor de L} & \cellcolor[HTML]{CBCEFB}\textbf{Valor de H} \\ \cline{2-5} 
 	\endfirsthead
 	%
-	\multicolumn{5}{c}%
-	{{\bfseries Table \thetable\ continued from previous page}} \\
-	\hline
-	& \textbf{Nome} & \textbf{RA} & \textbf{Valor de L} & \textbf{Valor de H} \\ \hline
 	\endhead
 	%
-	& \textbf{Renan Guedes} & \textbf{223979} & \textbf{900m} & \textbf{9m} \\ \hline
-	\textbf{Item} & \textbf{Atividade} & \textbf{Volume} & \textbf{\begin{tabular}[c]{@{}l@{}}Custo Unitário\\ (R\$)\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Custo Total\\ (R\$)\end{tabular}} \\ \hline
-	\textbf{01} & \textbf{\begin{tabular}[c]{@{}l@{}}Solo Compactado -\\ Trincheira\end{tabular}} &  &  &  \\ \hline
-	\textbf{02} & \textbf{\begin{tabular}[c]{@{}l@{}}Solo Compactado - \\ Aterro\end{tabular}} &  &  &  \\ \hline
-	\textbf{03} & \textbf{\begin{tabular}[c]{@{}l@{}}Tal. Montante \\ Pedras - Rip-rap\end{tabular}} &  &  &  \\ \hline
-	\textbf{04} & \textbf{\begin{tabular}[c]{@{}l@{}}Tal. Jusante\\ Grama\end{tabular}} &  &  &  \\ \hline
-	\textbf{05} & \textbf{\begin{tabular}[c]{@{}l@{}}Areia - Filtro \\ Vertical\end{tabular}} &  &  &  \\ \hline
-	\textbf{06} & \textbf{\begin{tabular}[c]{@{}l@{}}Areia - Filtro\\ Horizontal\end{tabular}} &  &  &  \\ \hline
-	\textbf{07} & \textbf{Topografia} &  &  &  \\ \hline
-	\textbf{08} & \textbf{\begin{tabular}[c]{@{}l@{}}Controle - Tecnológico\\ Aterro - Filtro\end{tabular}} &  &  &  \\ \hline
-	\textbf{09} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaio de Campo-SPT-\\ Trado (No eixo-1 a \\ cada 50m)\end{tabular}} &  &  &  \\ \hline
-	\textbf{10} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaio de Campo:\\ -- Permeabilidade in situ\\ - Ensaio de perda d'água\end{tabular}} &  &  &  \\ \hline
-	\textbf{11} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaios Laboratoriais:\\ - Granulometria\\ - Lim. Liquidez\\ - Lim. Plasticidade\\ - Massa específica \\ dos Sólidos\\ - Umidade\\ - Densidade Natural\end{tabular}} &  &  &  \\ \hline
-	\textbf{12} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaios Laboratoriais:\\ - Proctor Normal\end{tabular}} &  &  &  \\ \hline
-	\textbf{13} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaios Laboratoriais:\\ - Ensaio de compressão\\ triaxial\\ - Ensaio de \\ permeabilidade\end{tabular}} &  &  &  \\ \hline
-	\textbf{14} & \textbf{\begin{tabular}[c]{@{}l@{}}Sangradouro e Canal\\ (Escavação e lajes de\\ concreto)\\ (Depende do tamanho)\end{tabular}} &  &  &  \\ \hline
-	\textbf{15} & \textbf{\begin{tabular}[c]{@{}l@{}}Tubulação de fundo\\ (Custo da tubulação: m R\$)\\ (Comprimento > largura da\\ barragem no centro)\\ (Diâmetro >= 0.8 m)\end{tabular}} &  &  &  \\ \hline
-	\textbf{16} & \textbf{Vista inicial ai local (R\$)} &  &  &  \\ \hline
-	\textbf{17} & \textbf{Deslocamento inicial ao local} &  &  &  \\ \hline
-	\textbf{18} & \textbf{Licenciamento Ambiental} &  &  &  \\ \hline
-	\textbf{19} & \textbf{Anteprojeto} &  &  &  \\ \hline
-	\textbf{20} & \textbf{Projeto Executivo} &  &  &  \\ \hline
-	\textbf{} & \textbf{\begin{tabular}[c]{@{}l@{}}Fornecim. de ART - Anotação\\ de responsabilidade técnica\\ (CREA)\end{tabular}} &  &  &  \\ \hline
-	\textbf{} & \textbf{Custo Total} &  &  &  \\ \hline
-	\caption{}
-	\label{tab:my-table}\\
+	& \cellcolor[HTML]{FFCCC9}\textbf{Renan Guedes} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}\textbf{223979}} & \cellcolor[HTML]{FFCCC9}\textbf{900m} & \cellcolor[HTML]{FFCCC9}\textbf{9m} \\ \hline
+	\rowcolor[HTML]{00D2CB} 
+	\multicolumn{1}{|c|}{\cellcolor[HTML]{FFCCC9}\textbf{Item}} & \multicolumn{1}{c|}{\cellcolor[HTML]{00D2CB}\textbf{Atividade}} & \textbf{Volume} & \multicolumn{1}{c|}{\cellcolor[HTML]{00D2CB}\textbf{\begin{tabular}[c]{@{}c@{}}Custo \\ Unitário\\ (R\$)\end{tabular}}} & \multicolumn{1}{c|}{\cellcolor[HTML]{00D2CB}\textbf{\begin{tabular}[c]{@{}c@{}}Custo Total\\ (R\$)\end{tabular}}} \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{01}} & \textbf{\begin{tabular}[c]{@{}l@{}}Solo Compactado -\\ Trincheira\end{tabular}} & 9000 & 20,33 & 182\,970,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{02}} & \textbf{\begin{tabular}[c]{@{}l@{}}Solo Compactado - \\ Aterro\end{tabular}} & 51852 & 20,33 & 1\,054\,151,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{03}} & \textbf{\begin{tabular}[c]{@{}l@{}}Tal. Montante \\ Pedras - Rip-rap\end{tabular}} & 1423 & 90,00 & 128\,070,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{04}} & \textbf{\begin{tabular}[c]{@{}l@{}}Tal. Jusante\\ Grama (m$^{2}$)\end{tabular}} & 5100 & 6,00 & 30\,600,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{05}} & \textbf{\begin{tabular}[c]{@{}l@{}}Areia - Filtro \\ Vertical\end{tabular}} & 1200 & 90,00 & 108\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{06}} & \textbf{\begin{tabular}[c]{@{}l@{}}Areia - Filtro\\ Horizontal\end{tabular}} & 3150 & 90,00 & 283\,500,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{07}} & \textbf{Topografia} & 1 & 10\,000,00 & 10\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{08}} & \textbf{\begin{tabular}[c]{@{}l@{}}Controle - Tecnológico\\ Aterro - Filtro\end{tabular}} & 1 & 15\,000,00 & 15\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{09}} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaio de Campo-SPT-\\ Trado (No eixo-1 a \\ cada 50m)\end{tabular}} & 1 & \begin{tabular}[c]{@{}l@{}}1000,00\\ (p/ 10m \\ profund.)\end{tabular} & 6\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{10}} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaio de Campo:\\ -- Permeabilidade in situ\\ - Ensaio de perda d'água\end{tabular}} & $\geq 3$ & 650,00 & 3\,900,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{11}} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaios Laboratoriais:\\ - Granulometria\\ - Lim. Liquidez\\ - Lim. Plasticidade\\ - Massa específica \\ dos Sólidos\\ - Umidade\\ - Densidade Natural\end{tabular}} & \begin{tabular}[c]{@{}c@{}}$\geq 3$\\ $\geq 3$\\ $\geq 3$\\ $\geq 3$\\ \\ $\geq 3$\\ $\geq 3$\end{tabular} & \begin{tabular}[c]{@{}l@{}}147,00\\ 149,00\\ 149,00\\ 125,00\\ \\ 50,00\\ 50,00\end{tabular} & \begin{tabular}[c]{@{}l@{}}882,00\\ 894,00\\ 894,00\\ 750,00\\ \\ 300,00\\ 300,00\end{tabular} \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{12}} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaios Laboratoriais:\\ - Proctor Normal\end{tabular}} & $\geq 3$ & 135,00 & 810,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{13}} & \textbf{\begin{tabular}[c]{@{}l@{}}Ensaios Laboratoriais:\\ - Ensaio de compressão\\ triaxial\\ - Ensaio de \\ permeabilidade\end{tabular}} & \begin{tabular}[c]{@{}c@{}}$\geq 3$\\ \\ $\geq 3$\end{tabular} & \begin{tabular}[c]{@{}l@{}}1\,150,00\\ \\ 1\,250,00\end{tabular} & \begin{tabular}[c]{@{}l@{}}6\,900,00\\ 7\,500,00\end{tabular} \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{14}} & \textbf{\begin{tabular}[c]{@{}l@{}}Sangradouro e Canal\\ (Escavação e lajes de\\ concreto)\\ (Depende do tamanho)\end{tabular}} & 1 & - & 30\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{15}} & \textbf{\begin{tabular}[c]{@{}l@{}}Tubulação de fundo\\ (Custo da tubulação: m$\times$R\$)\\ (Comprimento > largura da\\ barragem no centro)\\ (Diâmetro $\geq$ 0.8 m)\end{tabular}} & metros & \begin{tabular}[c]{@{}l@{}}R\$250,00\\ (1,5m$\times$ 80cm)\end{tabular} & 150\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{16}} & \textbf{Vista inicial ai local (R\$)} & horas & 250,00 & 3\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{17}} & \textbf{Deslocamento inicial ao local} & 1 & 1\,000,00 & 1\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{18}} & \textbf{Licenciamento Ambiental} & 1 & 25\,000,00 & 25\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{19}} & \textbf{Anteprojeto} & 1 & 30\,000,00 & 30\,000,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{20}} & \textbf{Projeto Executivo} & 1 & 1\% (Custo total) & 20\,804,21 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{}} & \textbf{\begin{tabular}[c]{@{}l@{}}Fornecim. de ART - \\ Anotação de \\ responsabilidade técnica\\ (CREA)\end{tabular}} & 1 & 600,00 & 600,00 \\ \hline
+	\rowcolor[HTML]{9AFF99} 
+	\multicolumn{1}{|l|}{\cellcolor[HTML]{FFCCC9}\textbf{}} & \textbf{Custo Total} &  &  & 2\,101\,825,21 \\ \hline
 \end{longtable}
