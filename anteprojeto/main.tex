@@ -6,6 +6,10 @@
 \begin{document}
 	\import{sections/}{titlepage}
 	
+	\tableofcontents
+	
+	\newpage
+	
 	\section{Início}
 	
 	\section{Volume da trincheira}
@@ -20,6 +24,13 @@
 	
 	\subsubsection{Seção central}
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.85\linewidth]{images/center}
+		\label{fig:center}
+	\end{figure}
+	
+	
 	\begin{eqnarray}
 		A_{1}&=&\dfrac{(B+b)\cdot h}{2}\\
 		&=&\dfrac{(18+15+10+10)\cdot 8}{2}
@@ -29,12 +40,25 @@
 	
 	\subsubsection{Seção transversal em $L/6=\SI{100}{\meter}$}
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{images/lpersix}
+		\label{fig:lpersix}
+	\end{figure}
+	
+	
 	\begin{eqnarray}
 		A_{2}&=&\dfrac{(12+10+10+10)\cdot 5.333}{2}\\
 		&=&\SI{111.73}{\meter^{2}}
 	\end{eqnarray}
 	
 	\subsubsection{Seção transversal em $2L/6=\SI{200}{\meter}$}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.85\linewidth]{images/twolpersix}
+		\label{fig:twolpersix}
+	\end{figure}
 	
 	\begin{eqnarray}
 		A_{3}&=&\dfrac{(10+10+6+5)\cdot 2.666}{2}\\
@@ -107,27 +131,29 @@
 		L&=&\SI{1.82}{\meter}
 	\end{eqnarray}
 	
-	\newpage
-	
 	\section{Tabela de custos}
 	
 	\import{sections}{data}
+	
+	\newpage
 	
 	\section{Orçamento de terraplenagem}
 	
 	\subsection{Equipamentos para terraplenagem}
 	
-	01 escavadeira hidráulica sobre esteiras (limpeza e preparo da área de implantação) $\rightarrow$ \SI{50}{\hour}
-	
-	\noindent 01 escavadeira hidráulica + 03 a 04 caminhões traçados com capacidade de $\SI{12}{m^{3}}$ (na área de empréstimo) $\rightarrow$ 360 horas \\(quantidade de caminhões considerando distância de transporte de até \SI{1}{\kilo\meter})\\
-	
-	\noindent 01 trator de lâmina sobre esteiras (CAT D6) - espalhamento do aterro $\rightarrow$ \SI{360}{\hour}
-	
-	\noindent 01 rolo compactador corrugado auto propelido (CA25 ou similar) para compactação $\rightarrow$ \SI{360}{\hour}
-	
-	\noindent 01 trator agrícola com grade para homogeneização do de solo $\rightarrow$ \SI{360}{\hour}
-	
-	\noindent 01 caminhão irrigadeira com bomba de capacidade \SI{8000}{\liter} (depende da umidade do solo da jazida) $\rightarrow$ \SI{200}{\hour} 
+	\begin{itemize}
+		\item 01 escavadeira hidráulica sobre esteiras (limpeza e preparo da área de implantação) $\rightarrow$ \SI{50}{\hour}
+		
+		\item 01 escavadeira hidráulica + 03 a 04 caminhões traçados com capacidade de $\SI{12}{m^{3}}$ (na área de empréstimo) $\rightarrow$ 360 horas \\(quantidade de caminhões considerando distância de transporte de até \SI{1}{\kilo\meter})
+		
+		\item 01 trator de lâmina sobre esteiras (CAT D6) - espalhamento do aterro $\rightarrow$ \SI{360}{\hour}
+		
+		\item 01 rolo compactador corrugado auto propelido (CA25 ou similar) para compactação $\rightarrow$ \SI{360}{\hour}
+		
+		\item 01 trator agrícola com grade para homogeneização do de solo $\rightarrow$ \SI{360}{\hour}
+		
+		\item 01 caminhão irrigadeira com bomba de capacidade \SI{8000}{\liter} (depende da umidade do solo da jazida) $\rightarrow$ \SI{200}{\hour} 
+	\end{itemize}
 	
 	\subsubsection{Custo estimado}
 	
