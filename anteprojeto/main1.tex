@@ -29,9 +29,11 @@
 		\label{fig:planta}
 	\end{figure}
 	
+	\begin{small}
+		\textit{A partir das proporções estabelecidas para o comprimento L da barragem, foi realizado o cálculo das cotas apresentadas em tracejado para o estudo das seções transversais abaixo, sendo que a seção de maior base tem altura H correspondente a \SI{8}{\meter}}
+	\end{small}
 	
 	\subsubsection{Seção central}
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.85\linewidth]{images/center}
@@ -47,7 +49,6 @@
 	
 	
 	\subsubsection{Seção transversal em $L/6=\SI{100}{\meter}$}
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{images/lpersix}
@@ -61,7 +62,6 @@
 	\end{eqnarray}
 	
 	\subsubsection{Seção transversal em $2L/6=\SI{200}{\meter}$}
-	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.85\linewidth]{images/twolpersix}
@@ -74,7 +74,6 @@
 	\end{eqnarray}
 	
 	\subsection{Volumes}
-	
 	\begin{eqnarray}
 		V_{1}&=&\left(\dfrac{A_{1}+A_{2}}{2}\right)\cdot\dfrac{L}{6}=\SI{16196.5}{\meter^{3}}
 	\end{eqnarray}
@@ -100,7 +99,6 @@
 	\end{equation}
 	
 	\section{Volume do \textit{rip-rap}}
-	
 	\begin{eqnarray}
 		V_{\textit{rip-rap}}&=&\sqrt{H^{2}+V^{2}}\cdot L\cdot\textrm{espessura}\\
 		&=&\sqrt{2.5^{2}+7.5^{2}}\cdot 600\cdot 0.3\\
@@ -108,14 +106,12 @@
 	\end{eqnarray}
 	
 	\section{Área de grama}
-	
 	\begin{eqnarray}
 		A_{\textrm{grama}}&=&\dfrac{\sqrt{8^{2}+15^{2}}\cdot 600}{2}\\
-		&=&=\SI{5100}{\meter^{2}}
+		&=&\SI{5100}{\meter^{2}}
 	\end{eqnarray}
 	
 	\section{Filtro horizontal}
-	
 	\begin{eqnarray}
 		V_{FH}&=&\dfrac{l\,L\,\textrm{espessura}}{2}\\
 		&=&\dfrac{15\cdot 600\cdot 0.7}{2}\\
@@ -123,7 +119,6 @@
 	\end{eqnarray}
 	
 	\section{Filtro vertical}
-	
 	\begin{eqnarray}
 		V_{FV}&=&\dfrac{8\cdot 600\cdot 0.5}{2}\\
 		&=&\SI{1200}{\meter^{3}}
@@ -131,14 +126,20 @@
 	
 	\section{Seção do sangradouro}
 	
-	Para o cálculo, considerou-se $H=0.5$ (mínimo permitido para pequenas barragens), logo
-	
+	Para o cálculo, considerou-se $H=0.5$ (mínimo permitido para pequenas barragens), assim
 	\begin{eqnarray}
 		Q&=&1.55\,L\,H^{1.5}\\
 		1&=&1.55\cdot L\cdot 0.5^{1.5}\\
 		L&=&\SI{1.82}{\meter}
 	\end{eqnarray}
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{images/sang}
+		\label{fig:sang}
+	\end{figure}
+	
+	\newpage
 	\section{Tabela de custos}
 	
 	\import{sections}{data}
@@ -175,6 +176,6 @@
 	\# Valor total estimado dos equipamentos: \textbf{R\$1\,209\,000,00}
 	\vspace{1cm}
 
-	\textit{Obs: Os valores foram extraídos do roteiro presente no Moodle. Ao levar em conta que a barragem dimensionada nessa situação equivale a quase três vezes a do roteiro \textrm{($\SI{20000}{\meter^{3}}$)}, ao considerar o mesmo ritmo de horas requeridas para o cumprimento da operação, os equipamentos foram redimensionados de forma proporcional.}
+	\small{\textit{Obs: Os valores foram extraídos do roteiro presente no Moodle. Ao levar em conta que a barragem dimensionada nessa situação equivale a quase três vezes a do roteiro \textrm{($\SI{20000}{\meter^{3}}$)}, ao considerar o mesmo ritmo de horas requeridas para o cumprimento da operação, os equipamentos foram redimensionados de forma proporcional.}}
 	
 \end{document}
