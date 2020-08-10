@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  8 AUG 2020 12:53
+This is LuaHBTeX, Version 1.12.0 (MiKTeX 2.9.7440 64-bit)  (format=lualatex 2020.6.27)  10 AUG 2020 13:08
  restricted system commands enabled.
 **main1.tex
 (./main1.tex
@@ -871,98 +871,109 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]
-<images/center.pdf, id=106, 295.14265pt x 65.67235pt>
+<images/planta.pdf, id=106, 317.46002pt x 94.77809pt>
+File: images/planta.pdf Graphic file (type pdf)
+<use images/planta.pdf>
+Package luatex.def Info: images/planta.pdf  used on input line 27.
+(luatex.def)             Requested size: 384.1096pt x 114.68327pt.
+<images/center.pdf, id=107, 295.14265pt x 65.67235pt>
 File: images/center.pdf Graphic file (type pdf)
 <use images/center.pdf>
-Package luatex.def Info: images/center.pdf  used on input line 29.
+Package luatex.def Info: images/center.pdf  used on input line 37.
 (luatex.def)             Requested size: 362.77525pt x 80.72539pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 41.
+(hyperref)                removing `math shift' on input line 49.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 41.
+(hyperref)                removing `math shift' on input line 49.
 
-<images/lpersix.pdf, id=107, 312.29373pt x 62.86487pt>
+<images/lpersix.pdf, id=108, 312.29373pt x 62.86487pt>
 File: images/lpersix.pdf Graphic file (type pdf)
 <use images/lpersix.pdf>
-Package luatex.def Info: images/lpersix.pdf  used on input line 45.
+Package luatex.def Info: images/lpersix.pdf  used on input line 53.
 (luatex.def)             Requested size: 384.1096pt x 77.32426pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 55.
+(hyperref)                removing `math shift' on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 55.
+(hyperref)                removing `math shift' on input line 63.
 
-<images/twolpersix.pdf, id=108, 280.1637pt x 46.05505pt>
+<images/twolpersix.pdf, id=109, 280.1637pt x 46.05505pt>
 File: images/twolpersix.pdf Graphic file (type pdf)
 <use images/twolpersix.pdf>
-Package luatex.def Info: images/twolpersix.pdf  used on input line 59.
+Package luatex.def Info: images/twolpersix.pdf  used on input line 67.
 (luatex.def)             Requested size: 362.77525pt x 59.63612pt.
-[2<./images/center.pdf><./images/lpersix.pdf><./images/twolpersix.pdf>]
-[3] (./sections/data.tex
-Overfull \hbox (37.0167pt too wide) in alignment at lines 6--9
+[2
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.1'
+<./images/planta.pdf><./images/center.pdf><./images/lpersix.pdf>] [3<./images/tw
+olpersix.pdf>] (./sections/data.tex
+Overfull \hbox (37.0167pt too wide) in alignment at lines 6--13
  [][][][][] 
  []
 
 
-Overfull \hbox (37.0167pt too wide) in alignment at lines 9--11
+Overfull \hbox (37.0167pt too wide) in alignment at lines 13--15
  [][][][][] 
  []
 
 
-Overfull \hbox (37.0167pt too wide) in alignment at lines 11--51
+Overfull \hbox (37.0167pt too wide) in alignment at lines 15--135
  [][][][][] 
  []
 
 
-Overfull \hbox (37.0167pt too wide) in alignment at lines 51--60
+Overfull \hbox (37.0167pt too wide) in alignment at lines 135--160
  [][][][][] 
  []
 
 [4]) [5] (./sections/terra.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
  [6]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 164.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 180.
  (./main1.xwm) (./main1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `main1.out' has not changed.
 (rerunfilecheck)             Checksum: A5936DD647BAD0C4871E16650FE4276E;2578.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19469 strings out of 480883
+ 19499 strings out of 480883
  100000,794899 words of node,token memory allocated
  650 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 1 dir, 5 glue, 4 kern, 1 glyph, 22 attribute, 69 gl
 ue_spec, 13 attribute_list, 1 write nodes
-   avail lists: 2:4560,3:151,4:830,5:1372,6:41,7:6415,8:58,9:2531,10:4,11:286
- 36403 multiletter control sequences out of 65536+200000
- 75 fonts using 6727971 bytes
- 69i,24n,77p,622b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
+   avail lists: 2:4905,3:171,4:832,5:1535,6:41,7:6817,8:58,9:2643,10:5,11:293
+ 36426 multiletter control sequences out of 65536+200000
+ 87 fonts using 7535099 bytes
+ 69i,24n,77p,382b,973s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKT
-eX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fo
-nts/type1/bitstrea/charter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/symbols/msam10.pfb>
-Output written on main1.pdf (7 pages, 275856 bytes).
+eX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
+s/base/8r.enc}<C:/Users/renan/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/ch
+arter/bchb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cme
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/symbols/msam10.pfb>
+Output written on main1.pdf (7 pages, 364002 bytes).
 
-PDF statistics: 247 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 131072)
+PDF statistics: 283 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 131072)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 
